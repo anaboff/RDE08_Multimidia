@@ -95,18 +95,15 @@
         <li>src - URL do vídeo que será incorporado no documento.</li>
     </ul>
     </p>
-   <!------------------------  VÍDEO MP4 -------------------->
-    <p>Vídeo em MP4</p>
-    <vídeo src="video/_Bike.mp4" controls type="video/mp4" >Seu navegador não suporta o elemento vídeo!</vídeo>
-    <!------------------------  FIM VÍDEO MP4 -------------------->
-     <!------------------------  VÍDEO OGV -------------------->
-    <p>Vídeo em OGV</p>
-    <vídeo src="video/Bike.ogv" type="video/ogv" controls>Seu navegador não suporta o elemento vídeo!</vídeo>
-    <!------------------------  FIM VÍDEO OGV -------------------->
-    <!------------------------  VÍDEO WEBM -------------------->
-    <p>Vídeo em WEBM</p>
-    <vídeo src="video/Bike.webm" type="video/webm" controls>Seu navegador não suporta o elemento vídeo!</vídeo>
-    <!------------------------  FIM VÍDEO WEBM -------------------->
+   <!------------------------  VÍDEO MP4, OGV, WEBM ------------------->
+    <p>Vídeo em MP4, OGV, WEBM </p>
+    <vídeo controls>
+        <source src="video/_Bike.mp4" type="video/mp4">
+        <source src="video/Bike.ogv" type="video/ogv">
+        <source src="video/Bike.webm" type="video/web">
+    </vídeo>
+<!------------------------  FIM VÍDEO WEBM -------------------->
+
 
 
 <p>Para especificar vários arquivos de mídia podemos usar a tag < source >, disponibilizando o áudio e vídeo ( ou tag < picture >) em formatos diferentes, para que a os navegadores suportem a reprodução.
