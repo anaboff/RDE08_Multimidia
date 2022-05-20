@@ -7,7 +7,7 @@
     <title>Multimídia</title>
 </head>
 <body>
-    <!---------------------- TÍTULO 1 ---------------------->
+<!---------------------- TÍTULO 1 ---------------------->
 <h2>Multimídia</h2>
 <!---------------------- FIM TÍTULO 1 ---------------------->
 <!---------------------- PARÁGRAFO 1 ---------------------->
@@ -24,46 +24,53 @@
 <!---------------------- PARÁGRAFO 2 ---------------------->
 <p>A Multimídia é uma ferramenta que tem diversas funcionalidades de mídias.  Muitos arquivos multimídias podem ser encontrados em acervos, e que necessitam de equipamentos eletrônicos ou digitais para leitura.</p>
 <!---------------------- FIM PARÁGRAFO ---------------------->
-<!---------------------- SUB TÍTULO 1 ---------------------->
-<h3>Áudio</h3>
-<!---------------------- FIM SUB TÍTULO 1 ---------------------->
-<!---------------------- PARÁGRAFO 1 ---------------------->
-<p>Para adicionar um áudio ao documento html você precisa adicionar a tag aúdio < audio > que é empregado para incorporar um conteúdo de som ao documento
-<br>Sintaxe:
-<br>< audio src = " arquivo " atributos > < / audio ></p>
-<!---------------------- FIM PARÁGRAFO 1 ---------------------->
-<!---------------------- PARÁGRAFO 2 ---------------------->
-<p>A tag áudio pode ser usada com alguns atributos:
-<br>autoplay - Inicia o áudio automaticamente 
-<br>controls - Com esse atributo, o navegador mostrará controles de reprodução do áudio, como navegação e volume. 
-<br>loop - Se especificado, o áudio repete automaticamente. 
-<br>muted - Se especificado, o áudio é inicializado silenciado 
-<br>preload - Usado para carregar arquivos grandes. Possui 3 valores: 
-<br>none: O áudio não será pré-carregado 
-<br>auto: carrega o áudio todo antes da execução
-<br>metadata: Carrega apenas metadados do arquivo.
-<br>src - URL do áudio que será incorporado no documento, local ou remoto.</p>
-<!---------------------- SUB TÍTULO  ---------------------->
-<h3>Vídeo</h3>
-<!---------------------- FIM SUB TÍTULO 1 ---------------------->
-<!---------------------- PARÁGRAFO  1---------------------->
-<p>Para adicionar um vídeo < video > ao documento html você precisa adicionar a tag < vídeo > que é empregado para incorporar conteúdo de vídeo em um documento.
-<br> Sintaxe:
-<br> < video src = " arquivo " atributos < / video ></p>
-<!---------------------- FIM PARÁGRAFO  1---------------------->
-<!---------------------- PARÁGRAFO  1---------------------->
-<p>A tag vÍdeo pode ser usada com alguns atributos:, muitos iguais ao do áudio:
-<br>autoplay - Inicia o vídeo automaticamente assim que possível. 
-<br>controls - Controles de reprodução do vídeo 
-<br>loop - Se especificado, o vídeo reinicia sua execução ao terminar, automaticamente. 
-<br>width - Largura da área de exibição do vídeo, em pixels 
-<br>height - Altura da área de exibição do vídeo, em pixels 
-<br>preload - Usado para carregar arquivos grandes. Possui
-<br>none: O vídeo não será pré-carregado 
-<br>auto: Carrega o vídeo todo antes da execução
-<br>metadata: Carrega apenas metadados do arquivo
-<br>poster - Imagem prévia do vídeo, exibida antes de seu carregamento 
-<br>src - URL do vídeo que será incorporado no documento.</p>
-<!---------------------- FIM PARÁGRAFO  2---------------------->
+    <!---------------------- SUB TÍTULO 1 ---------------------->
+    <h3>Áudio</h3>
+    <!---------------------- FIM SUB TÍTULO 1 ---------------------->
+    <!---------------------- PARÁGRAFO 1 ---------------------->
+    <p>Para adicionar um áudio ao documento html você precisa adicionar a tag aúdio < audio > que é empregado para incorporar um conteúdo de som ao documento
+    <br>Sintaxe:
+    <br>< audio src = " arquivo " atributos > < / audio ></p>
+    <!---------------------- FIM PARÁGRAFO 1 ---------------------->
+    <!---------------------- PARÁGRAFO 2 ---------------------->
+    <p>A tag áudio pode ser usada com alguns atributos:
+    <br>autoplay - Inicia o áudio automaticamente 
+    <br>controls - Com esse atributo, o navegador mostrará controles de reprodução do áudio, como navegação e volume. 
+    <br>loop - Se especificado, o áudio repete automaticamente. 
+    <br>muted - Se especificado, o áudio é inicializado silenciado 
+    <br>preload - Usado para carregar arquivos grandes. Possui 3 valores: 
+        <br>none: O áudio não será pré-carregado 
+        <br>auto: carrega o áudio todo antes da execução
+        <br>metadata: Carrega apenas metadados do arquivo.
+    <br>src - URL do áudio que será incorporado no documento, local ou remoto.</p>
+    <!---------------------- SUB TÍTULO  ---------------------->
+    <h3>Vídeo</h3>
+    <!---------------------- FIM SUB TÍTULO 1 ---------------------->
+    <!---------------------- PARÁGRAFO  1---------------------->
+    <p>Para adicionar um vídeo < video > ao documento html você precisa adicionar a tag < vídeo > que é empregado para incorporar conteúdo de vídeo em um documento.
+    <br> Sintaxe:
+    <br> < video src = " arquivo " atributos < / video ></p>
+    <!---------------------- FIM PARÁGRAFO  1---------------------->
+    <!---------------------- PARÁGRAFO  1---------------------->
+    <p>A tag vÍdeo pode ser usada com alguns atributos:, muitos iguais ao do áudio:
+    <br>autoplay - Inicia o vídeo automaticamente assim que possível. 
+    <br>controls - Controles de reprodução do vídeo 
+    <br>loop - Se especificado, o vídeo reinicia sua execução ao terminar, automaticamente. 
+    <br>width - Largura da área de exibição do vídeo, em pixels 
+    <br>height - Altura da área de exibição do vídeo, em pixels 
+    <br>preload - Usado para carregar arquivos grandes. Possui
+        <br>none: O vídeo não será pré-carregado 
+        <br>auto: Carrega o vídeo todo antes da execução
+        <br>metadata: Carrega apenas metadados do arquivo
+    <br>poster - Imagem prévia do vídeo, exibida antes de seu carregamento 
+    <br>src - URL do vídeo que será incorporado no documento.</p>
+    <!---------------------- FIM PARÁGRAFO  2---------------------->
+<p>Para especificar vários arquivos de mídia podemos usar a tag < source >, disponibilizando o áudio e vídeo ( ou tag < picture >) em formatos diferentes, para que a os navegadores suportem a reprodução.
+<br>Sintaxe : 
+<br>< audio | video >
+<br>< source src = " arq.formato1 " type = " audio / video / formato1 " >
+<br>< source src = " arq.formato2 " type = " audio / video / formato2 " >
+<br>< source src = " arq.formato3 " type = " audio / video / formato3 " >
+<br>< audio | video >  
 </body>
 </html>
