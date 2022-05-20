@@ -47,19 +47,24 @@
         <li>poster - Imagem prévia do vídeo, exibida antes de seu carregamento;</li>
         <li>src - URL do áudio que será incorporado no documento, local ou remoto.</li>
     </ul>
-    <!------------------------  ÁUDIO MR3 -------------------->
+    <!------------------------  ÁUDIO MP3 -------------------->
     <p>Áudio "Hey Sailor - Letter Box" em MP3</p>
-    <audio src="audio/Hey Sailor - Letter Box.mp3" controls></audio>
+    <audio controls>
+    <source src="audio/Hey Sailor - Letter Box.mp3"  type=audio/mp3>
+    </audio>
     <!------------------------  FIM ÁUDIO MR3 -------------------->
     <!------------------------  ÁUDIO OGG-------------------->
     <p> Áudio "Hey Sailor - Letter Box" em OGG</p>
-    <audio src="audio/Hey Sailor - Letter Box.ogg" controls></audio>
+    <audio controls>
+    <source src="audio/Hey Sailor - Letter Box.ogg" type=audio/ogg>
+    </audio>
     <!------------------------  FIM ÁUDIO OGG -------------------->
     <!------------------------  ÁUDIO WAV-------------------->
     <p> Áudio "Hey Sailor - Letter Box" em WAV</p>
-    <audio src="audio/Hey-Sailor-Letter-Box.wav" controls></audio>
+    <audio controls>
+    <source src="audio/Hey-Sailor-Letter-Box.wav"  type=audio/wav>
+    </audio>
     <!------------------------  FIM ÁUDIO WAV -------------------->
-
 
     </p>
     <!---------------------- SUB TÍTULO  ---------------------->
@@ -87,7 +92,25 @@
         <li>src - URL do vídeo que será incorporado no documento.</li>
     </ul>
     </p>
-    <!---------------------- FIM PARÁGRAFO  2---------------------->
+    <!------------------------  VÍDEO MP4 -------------------->
+    <p>Vídeo em MP4</p>
+    <video controls>
+    <source src="video/_Bike.mp4" type=video/mp4>
+    </video>
+    <!------------------------  FIM VÍDEO MP4 -------------------->
+    <!------------------------  VÍDEO OGV -------------------->
+    <p>Vídeo em OGV</p>
+    <video controls>
+    <source src="video/Bike.ogv" type=video/ogv>
+    </video>
+    <!------------------------  FIM VÍDEO OGV -------------------->
+    <!------------------------  VÍDEO WEBM -------------------->
+    <p>Vídeo em WEBM</p>
+    <video controls>
+    <source src="video/Bike.webm" type=video/webm>
+    </video>
+    <!------------------------  FIM VÍDEO WEBM -------------------->
+
 <p>Para especificar vários arquivos de mídia podemos usar a tag < source >, disponibilizando o áudio e vídeo ( ou tag < picture >) em formatos diferentes, para que a os navegadores suportem a reprodução.
 <br>Sintaxe:</br>
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< audio | video >
